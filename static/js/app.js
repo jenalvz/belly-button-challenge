@@ -18,7 +18,7 @@ function init() {
         // Define a variable for the sample names
         let sample_names = data.names;
 
-        sample_names.forEAch((id) => {
+        sample_names.forEach((id) => {
             console.log(id);
             dropdownMenu.append("option")
             .text(id)
